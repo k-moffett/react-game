@@ -1,8 +1,23 @@
 import { combineReducers } from 'redux'
-import { addName } from './actions'
+import { 
+    ENTER_NAME 
+} from './actions'
 
-function name() {
+const initialState = {
+    playerName: 'test'
+}
 
+
+function name(state = initialState, action) {
+    switch(action.type) {
+        case ENTER_NAME:
+          return Object.assign({}, state, {
+              playerName: action.text
+          })
+          break;
+        default:
+          return state
+    }
 }
 
 const game = combineReducers({

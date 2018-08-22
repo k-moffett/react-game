@@ -1,9 +1,9 @@
 //action types
 
-const ADD_NAME = 'ADD_NAME'
+export const ENTER_NAME= 'ENTER_NAME'
 
 //action creators
 
-export function addName(text) {
-    return {type: ADD_NAME, text}
+export function enterName(text) {
+    return {type: ENTER_NAME, text}
 }
