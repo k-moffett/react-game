@@ -1,7 +1,7 @@
 import React from 'react'
 
-const playerName = ({text}) => (
+const PlayerName = ({text}) => (
     <p>{text}</p>
 )
 
-export default playerName
+export default PlayerName

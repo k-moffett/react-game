@@ -14,7 +14,6 @@ function name(state = initialState, action) {
           return Object.assign({}, state, {
               playerName: action.text
           })
-          break;
         default:
           return state
     }

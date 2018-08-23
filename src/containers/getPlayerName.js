@@ -1,8 +1,8 @@
 import { connect } from 'react-redux'
-import { ENTER_NAME } from '../actions'
 import { playerName } from '../components'
 
 const getPlayerName = (text) => {
+    console.log(this.props)
     return text
 }
 

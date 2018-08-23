@@ -1,10 +1,11 @@
 import React from 'react'
-import { playerName} from './PlayerName'
+import PlayerName from './PlayerName'
 
 const App = () => (
+  
   <div>
     App
-    <playerName />
+    <PlayerName />
   </div>
 )
 
